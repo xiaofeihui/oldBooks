@@ -1,0 +1,66 @@
+{
+	"appControls": {
+        "1.1.0": {
+            "versionList": [
+                {
+                    "version": "-1.1.1",
+                    "action": "this.events.publish('update-box')"
+                }                      
+            ]
+        },
+        "1.2.0": {
+            "versionList": [
+                {
+                    "version": "-1.1.1",
+                    "action": "this.events.publish('update-box')"
+                }        
+            ]
+        },
+        "1.2.1": {
+            "versionList": [
+                {
+                    "version": "-1.2.0",
+                    "action": "this.events.publish('update-box')"
+                }           
+            ]
+        }
+	},
+	"boxVersionDescription": {
+		"1.0.1": 
+            {
+                "cn": ["1. 新增支持文件远程访问、操作功能","2. 新增支持文件断点续传功能","3. 优化提升UBBEY BOX挖矿性能"],
+                "en": ["1. Support remote file access and operation functions","2. Support file transmission breakpoint resume functions","3. Ubbey Box mining function improvement and updates"],
+                "kr": ["1. 지원 파일 원격 액세스 및 작업 기능을 추가합니다","2. 지원 파일 중단점 연속 기능을 추가합니다","3. 우베이 박스(UBBEY BOX) 마이닝의 성능을 최적화하고 개선합니다"]
+            },
+        "1.1.1": 
+            {
+                "cn": ["1. 修复已知BUG","2. 新增文件远程访问、操作功能","3. 优化文件上传下载性能","4. 优化部分UI及使用体验"],
+                "en": ["1. Bugs fixing","2. Adding file remote access and operation functions","3. Optimize file upload and download performance","4. Optimize UI and user experience"],
+                "kr": ["1. 알려진 버그를 수정합니다","2. 새로운 파일 원격 액세스 및 작업 기능","3. 파일 업로드 및 다운로드 성능 최적화","4. UI 및 사용자 환경의 일부를 최적화합니다"]
+            },
+        "1.2.0": 
+        {
+            "cn": ["1. 测试链上线，快来参与测试链挖矿吧","2. 新增区块链浏览器，随时查看出块信息","3. 优化社区反馈的问题及使用体验，修复已知系统bug"],
+            "en": ["1. Come to join us in mining with the newly launched test chain!","2. Checking the block information at any time with the new added browser.","3. Fixed the reported problems and optimised using experience."],
+            "kr": ["1. 테스트 체인이 온라인 상태가 됩니다. 테스트 체인 마이닝에 참여하십시오.","2. 언제든지 블록 정보를 볼 수 있는 새 블록체인 브라우저를 추가합니다.","3. 커뮤니티 피드백 문제 및 사용 경험을 최적화하고 알려진 시스템 버그를 수정합니다."]
+        }            
+    },
+    "appVersionDescription" : {
+        "version": "1.2.1",
+        "content": 
+            {
+                "cn": ["1. 测试链上线，快来参与测试链挖矿吧","2. 新增区块链浏览器，随时查看出块信息","3. 优化社区反馈的问题及使用体验，修复已知系统bug"],
+                "en": ["1. Come to join us in mining with the newly launched test chain!","2. Checking the block information at any time with the new added browser.","3. Fixed the reported problems and optimised using experience."],
+                "kr": ["1. 테스트 체인이 온라인 상태가 됩니다. 테스트 체인 마이닝에 참여하십시오.","2. 언제든지 블록 정보를 볼 수 있는 새 블록체인 브라우저를 추가합니다.","3. 커뮤니티 피드백 문제 및 사용 경험을 최적화하고 알려진 시스템 버그를 수정합니다."]
+            }
+    },
+	"appVersionDescription-1.1.0" : {
+        "version": "1.1.0",
+        "content": 
+            {
+                "cn": ["1. 修复已知BUG","2. 新增文件远程访问、操作功能","3. 优化文件上传下载性能","4. 优化部分UI及使用体验"],
+                "en": ["1. Bugs fixing","2. Adding file remote access and operation functions","3. Optimize file upload and download performance","4. Optimize UI and user experience"],
+                "kr": ["1. 알려진 버그를 수정합니다","2. 새로운 파일 원격 액세스 및 작업 기능","3. 파일 업로드 및 다운로드 성능 최적화","4. UI 및 사용자 환경의 일부를 최적화합니다"]
+            }
+    }
+}

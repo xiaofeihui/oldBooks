@@ -1,0 +1,58 @@
+page-register {
+    .content-box {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        .form-input {
+            margin: 20px 0;
+            overflow: hidden;
+            padding: 0 30px;
+            .input {
+                width: 100%;
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                float: left;
+                border: 1px solid #eee;
+                text-indent: 10px;
+                background: #fff;
+                border-radius: 4px;
+            }
+
+
+        }
+        .form-btn {
+            .btn {
+                display: inline-block;
+                width: 100%;
+                line-height: 40px;
+                text-align: center;
+                background: pink;
+                margin-top: 30px;
+                border-radius: 4px;
+                color: #fff;
+            }
+            .href-box {
+                padding-top: 5px;
+                span {
+                    display: inline-block;
+                    width: 50%;
+                    text-align: left;
+                    &:last-child {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:360px){
+        .content-box {
+            .form-input {
+                padding: 0px;
+            }
+        }
+    }
+}

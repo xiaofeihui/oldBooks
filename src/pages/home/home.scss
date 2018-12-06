@@ -1,0 +1,39 @@
+page-home {
+    .main-content {
+        
+        .header {
+            height: 180px;
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            padding-top: 35px;
+            .user-head {
+                width: 50%;
+                float: left;
+                height: 100%;
+                overflow: hidden;
+                .user-img {
+                    margin: 0 auto;
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .user-name {
+                    width: 100%;
+                    text-align: center;
+                    padding: 10px 0;
+                }
+            }
+        }
+        .body {
+            padding: 20px;
+            p {
+                padding-bottom: 15px;
+            }
+        }
+    }
+}

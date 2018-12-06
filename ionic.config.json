@@ -1,0 +1,7 @@
+{
+  "name": "oldBooks",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

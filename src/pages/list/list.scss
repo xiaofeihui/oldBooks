@@ -1,0 +1,62 @@
+page-list {
+    .main-content {
+        padding-bottom: 50px;
+        position: relative;
+        .list-ul {
+            background: #fff;
+            .list-li {
+                border: 1px dashed #eeee;
+                font-size: 12px;
+                padding: 10px;
+                line-height: 25px;
+                .li-line {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    -webkit-line-clamp: 2;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                }
+                .title {
+                    line-height: 20px;
+                    margin-bottom: 5px;
+                    font-size: 14px;
+                }
+                .info {
+                    width: 100%;
+                    line-height: 18px;
+                    color: #666;
+                }
+                .time {
+                    overflow: hidden;
+                    line-height: 18px;
+                    .time-span {
+                        float: left;
+                    }
+                    .type-span {
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+    .btn-box {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        width: 100%;
+        height: 50px; 
+        .add-newrecord {
+            display: inline-block;
+            width: 70%;
+            height: 30px;
+            background: pink;
+            margin-top: 10px;
+            margin-left: 15%;
+            text-align: center;
+            border-radius: 4px;
+            line-height: 30px;
+            color: #fff;
+        }
+    }
+}
